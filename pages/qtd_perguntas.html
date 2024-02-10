@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha a Quantidade de Perguntas</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="container">
+        <div class="box">
+            <img src="../img/qtd.png" alt="qtd_pergunta">
+            <h1>Escolha a Quantidade de Perguntas</h1>
+
+            <form action="quiz.php" method="post" class="qtd">
+                <label for="numero_perguntas">Quantas perguntas você deseja responder? (Entre 5 e 20)</label>
+                <input type="number" name="numero_perguntas" id="numero_perguntas" min="5" max="20" required>
+                <button type="submit">Iniciar Quiz</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
