@@ -3,7 +3,7 @@
 $host = 'localhost';
 $porta = '5432';
 $usuario = 'postgres';
-$senha = '123';
+$senha = '';
 $banco = 'projetoProgramWeb';
 
 try {

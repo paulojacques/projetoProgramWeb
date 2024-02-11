@@ -23,5 +23,5 @@ Homestead.json
 .phpunit.result.cache
 
 
-/admin
-/includes
+admin/
+includes/
